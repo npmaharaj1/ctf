@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 clear
 printf "${RED}Installing Dependencies${NC}\n"
 apt update
-apt install -y git python3 apache2 openssh-server useradd
+apt install -y git python3 apache2 openssh-server
 printf "${RED}Cloning Respository${NC}\n"
 git clone https://github.com/npmaharaj1/ctf
 
