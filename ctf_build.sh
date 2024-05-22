@@ -23,5 +23,5 @@ printf "${RED}Setting up User${NC}\n"
 useradd -m stevenirate -p georgia
 echo "a7ba7425c4366547f458ac75cba3e4b4" > /home/stevenirate/flag.txt
 
-printf "\n\nYour Attack IP Address is"
+printf "\n\nYour Attack IP Address is "
 hostname -I
