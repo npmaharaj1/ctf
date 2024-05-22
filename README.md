@@ -6,7 +6,7 @@ Beginner level Capture the Flag (user and root flag included)
 ```
 wget https://raw.githubusercontent.com/npmaharaj1/ctf/main/ctf_build.sh
 chmod u+x ctf_build.sh
-./ctf_build.sh
+sudo ./ctf_build.sh
 ```
 
 <h2>On your host machine or VM (whatever you are going to be hacking the CTF with), run the following commands:</h2>
@@ -14,5 +14,5 @@ chmod u+x ctf_build.sh
 ```
 wget https://raw.githubusercontent.com/npmaharaj1/ctf/main/attack_build.sh
 chmod u+x attack_build.sh
-./attack_build.sh
+sudo ./attack_build.sh
 ```
