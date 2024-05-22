@@ -12,5 +12,7 @@ clear
 printf "${RED}Installing Dependencies${NC}\n"
 apt update
 apt install -y nmap ffuf hydra
+mkdir ctf_tools/
+cd ctf_tools/
 wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt
