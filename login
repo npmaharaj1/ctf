@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Admin Login</title>
-        <script src="login.js" defer></script>
     </head>
     <body>
+        <script src="login.js" defer></script>
+        
         <h1 style="text-align: center;">Administrator Login</h1>
         <div style="text-align: center; margin-top: 20%;">
             <input id="usernameField" type="text" placeholder="User">
