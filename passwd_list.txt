@@ -241,6 +241,7 @@ chris
 888888
 adriana
 cutie
+georgia
 james
 banana
 prince
@@ -799,7 +800,6 @@ password2
 PASSWORD
 martha
 lizzie
-georgia
 matthew1
 enrique
 zxcvbn
