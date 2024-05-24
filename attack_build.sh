@@ -11,6 +11,6 @@ NC='\033[0m' # No Color
 clear
 printf "${RED}Installing Dependencies${NC}\n"
 apt update
-apt install -y nmap ffuf hydra
+apt install -y nmap ffuf hydra openssh-server
 wget https://raw.githubusercontent.com/npmaharaj1/ctf/main/passwd_list.txt
 wget https://raw.githubusercontent.com/v0re/dirb/master/wordlists/common.txt
