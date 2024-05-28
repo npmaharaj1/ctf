@@ -24,6 +24,9 @@ useradd -m stevenirate
 echo -e "georgia\ngeorgia" | passwd stevenirate  
 echo "a7ba7425c4366547f458ac75cba3e4b4" > /home/stevenirate/flag.txt
 
+systemctl restart ssh
+systemctl status ssh
+
 printf "\n\nYour Attack IP Address is "
 hostname -I
 printf "You no longer need to be at this terminal, happy hacking!\n"
