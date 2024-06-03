@@ -5,6 +5,12 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
+if imvirt | grep -q "Physical"; then
+  echo "Virtual environment detected (may not be accurate)"
+else
+  echo "Physical environment (or virtual environment not detectable)"
+fi
+
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
