@@ -16,6 +16,19 @@ wget https://raw.githubusercontent.com/npmaharaj1/ctf/main/attack_build.sh
 chmod u+x attack_build.sh
 sudo ./attack_build.sh
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h2>Walkthrough</h2>
 Note that the <i>{ip address}</i> signifies the ip address of the server, please don't write {192.168.whatever}. <br>
 <br>
