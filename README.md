@@ -1,5 +1,5 @@
 # ctf
-Beginner level Capture the Flag (user and root flag included)
+Beginner level Capture the Flag (user flag included)
 
 <h2>On your VM that will be running the CTF, run the following commands:</h2>
 
