@@ -7,8 +7,8 @@ if [ "$EUID" -ne 0 ]
   then echo "Insufficient Permissions, maybe run as root?"
   exit
 fi
-
-printf "\n\n"
+clear
+printf "\n"
 printf "${RED}Installing Dependencies${NC}\n"
 apt update
 apt install -y git python3 apache2 openssh-server
