@@ -26,8 +26,8 @@ nmap -A {ip address} -oN scan.initial
 ```
 
 When looking at the results, we can see that there are open ports, namely:
-22: for OpenSSH
-80: for an Apache2 web server (it also seems to be a test page based on the child results)
+- 22: for OpenSSH
+- 80: for an Apache2 web server (it also seems to be a test page based on the child results)
 
 Let's open our browser and navigate to that ip address to have a look
 ```
