@@ -35,7 +35,7 @@ http://{ip address}:80
 ```
 
 Like the results said, it seems to be a test page<br>
-Apache test pages aren't normally hackable since it's just a webpage, but what if there are other directories in the webserver. We can find out using a tool called FFUF. The following command will tell fuff to look at the website and use a wordlist to look at each instance. Let's run: 
+Apache test pages aren't normally hackable since it's just a webpage, but what if there are other directories in the webserver? We can find out using a tool called FFUF. The following command will tell fuff to look at the website and use a wordlist to look at each instance. Let's run: 
 ```
 ffuf -u http://{ip address}:80/FUZZ -w common.txt
 ```
