@@ -17,6 +17,8 @@ chmod u+x attack_build.sh
 sudo ./attack_build.sh
 ```
 <h2>Walkthrough</h2>
+Note that the <i>{ip address}</i> signifies the ip address of the server, please don't write {192.168.whatever}. <br>
+<br>
 To startup off this CTF, we are given an ip address. In cybersecurity, IP Addresses can lead to a veriety of exploits such as open ports or unmaintained programs. To start off we can do some basic enumeration to check for open ports. This will use nmap (network mapper) to scan the top 1000 ports of the ip address and print out all the information into the file scan.initial.
 
 ```
