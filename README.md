@@ -16,6 +16,8 @@ wget https://raw.githubusercontent.com/npmaharaj1/ctf/main/attack_build.sh
 chmod u+x attack_build.sh
 sudo ./attack_build.sh
 ```
+<br>
+<br>
 <h2>Walkthrough</h2>
 Note that the <i>{ip address}</i> signifies the ip address of the server, please don't include the {}. <br>
 <br>
@@ -35,12 +37,12 @@ http://{ip address}:80
 ```
 
 Like the results said, it seems to be a test page<br>
-Apache test pages aren't normally hackable since it's just a webpage, but what if there are other directories in the webserver? We can find out using a tool called FFUF. The following command will tell fuff to look at the website and use a wordlist to look at each instance. Let's run: 
+Apache test pages aren't normally hackable since it's just a webpage, but what if there are other directories in the webserver? We can find out using a tool called FFUF. The following command will tell FUFF to look at the website and use a wordlist to look at each instance. Let's run: 
 ```
 ffuf -u http://{ip address}:80/FUZZ -w common.txt
 ```
 
-Looking at the results there seems to be an admin page and the test page we just saw: `index.html`. Let's have a look at the admin page
+Looking at the results there seems to be an admin page and the test page we just saw: `index.html`. Let's have a look at the admin page in our browser
 ```
 http://{ip address}:80/admin
 ``` 
